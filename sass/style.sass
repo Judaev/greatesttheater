@@ -1,0 +1,234 @@
+$white: #FFFFFF
+$black: #333333
+$gold: #D1A954
+  
+body 
+  margin: 0
+  font-family: 'Open Sans', sans-serif
+  font-size: 14px
+  color: $white
+  -webkit-font-smoothing: antialiased
+
+*,
+*:before,
+*:after 
+  box-sizing: border-box
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+  margin: 0
+
+span
+  color: $gold
+
+/* Main */
+
+.main
+  display: flex
+  height: 100%
+
+  background: #31344e url("../img/main/main__photo.svg")
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+.main__left
+  width: 7%
+  
+  background: rgba(51, 51, 51, 0.75)
+
+.left__content
+  display: flex
+  flex-direction: column
+  align-items: center
+  height: 1045px
+  
+
+.contact__info
+  margin-top: 383px
+  
+  max-width: 242px
+  width: 100%
+  max-height: 25px
+  height: 100%
+
+  font-size: 18px
+  line-height: 1.33
+
+  transform: rotate(-90deg)
+
+.line
+  border-bottom: 3px solid #C4C4C4
+  transform: rotate(-90deg)
+  margin-top: 158px
+  width: 80px
+  height: 0px
+
+.social__item
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  margin-top: 70px
+
+.social__icon
+  margin-top: 20px
+
+.main__rigth
+  width: 92.2%
+.nav
+  display: flex
+
+.nav__link
+  margin-top: 51px
+  margin-bottom: 191px
+  margin-right: 63px
+
+  font-size: 18px
+  line-height: 1.33
+  font-weight: 700
+  color: $white
+
+  text-transform: uppercase
+  text-decoration: none
+
+
+.nav__link:first-child
+  margin-left: 12.8%
+
+.nav__link:last-child
+  margin-left: 104px
+  margin-right: 0
+  padding-bottom: 5px
+
+  font-size: 16px
+  border-bottom: 2px solid $gold
+
+/* Intro */
+
+.intro
+  margin: 0 auto
+
+.intro__inner
+  display: flex
+  max-width: 1100px
+  margin: 0 auto
+  // margin-left: 12.8%
+  align-items: center
+
+.intro__content
+  width: 540px
+.intro__title
+  font-size: 64px
+  line-height: 
+
+.intro__text
+  margin-bottom: 49px
+
+.intro__slider
+  margin-left: 125px
+
+.intro__btn
+  font-size: 18px
+  line-height: 1.33
+  font-weight: 700
+
+  padding: 15px 47px
+
+  text-transform: uppercase
+  text-decoration: none
+
+  background-color: $gold
+  border: 1px solid $white
+  color: $white
+
+.slider
+  display: flex
+
+/* ABOUT */
+
+.about
+  background-color: #333333
+
+.about__inner
+  display: flex
+  flex-direction: column
+  // align-items: center
+  margin: 0 auto
+  padding-top: 150px
+
+  max-width: 1100px
+
+.about__title
+  margin-bottom: 100px
+
+  font-size: 48px
+  font-weight: 300
+  line-height: 1.15
+  text-align: center
+
+  text-transform: uppercase
+
+.about__content
+  display: flex
+
+.about__text
+  width: 445px
+  height: 273px
+
+.text__title
+  font-size: 21px
+  font-weight: 700
+  line-height: 1.45
+
+  text-transform: uppercase
+
+.about__numbers
+  margin-left: 30px
+  margin-right: 30px
+
+.numbers__title
+  margin-bottom: 40px
+
+  font-size: 21px
+  font-weight: 700
+  line-height: 1.45
+
+  text-transform: uppercase
+
+/*PROJECT*/
+
+.project
+  background-color: #333333
+
+.project__title
+  padding-top: 150px
+  margin-bottom: 100px
+
+  font-size: 48px
+  font-weight: 300
+  line-height: 1.25
+  text-align: center
+
+  text-transform: uppercase
+
+.project__items
+  display: flex
+  max-width: 1770px
+  margin: 0 auto
+
+.project__item
+  width: 442px
+  height: 550px
+
+.project__item:hover
+  src: "../img/project/finder.svg"
+  background: url("../img/project/finder.svg")
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
